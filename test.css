@@ -1,0 +1,98 @@
+a {
+	font-size: 24px;
+}
+body {
+	background-image: url("https://klaire-1373160.github.io/dark_wood.png");
+	cursor: pointer;
+	padding: 7px;
+}
+#Content {
+	padding: 15px;
+	width: 700px;
+}
+div {
+	background-color: #8E41D5;
+	border: solid 8px black;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px white;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#Header {
+	width: 500px;
+}
+#Header h1 {
+ 	font-size: 60px;
+ 	letter-spacing: 2px;
+}
+#forms {
+	float: right;
+	width: 25%;
+	padding: 5px;
+}
+.field {
+	clear: right;
+	min-width: 50%;
+}
+.field, #forms {
+	float: right;
+}
+h3 {
+	font-size: 40px;
+	margin-bottom: 0px;
+}
+#LeftNav {
+	padding-bottom: 8px;
+	width: 400px;
+}
+.label, #LeftNav {
+	float: left;
+
+}
+h3, #Header h1, .label {
+	color: #FFBC00;
+	font-family: "Passion One";
+  	text-shadow: 3px 3px black;
+}
+p {
+	font-family: "Arial";
+	padding: 5px;
+}
+a, p {
+	color: white;
+}
+a, #Header h1, p {
+	font-weight: bold;
+}
+#sub {
+	border-color: yellow;
+	border-style: double;
+	border-radius: 2px;
+	background-color: white;
+	color: black;
+	height: 25px;
+	font-size: 10pt;
+	font-style: italic;
+	width: 20%;
+}
+textarea {
+	width: 95%;
+	letter-spacing: 3px;
+}
+#sub, textarea {
+	font-family: "Impact";
+}
+#txt {
+	float: none;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	height: 50px;
+}
+ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
